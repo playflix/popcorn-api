@@ -2,8 +2,7 @@ var join = require('path').join
   , express = require('express')
   , compress = require('compression')
   , responseTime = require('response-time')
-  , bodyParser = require('body-parser')
-  , cors = require('cors');
+  , bodyParser = require('body-parser');
 
 var mongoose = require('mongoose');
 var config = require('./config');
@@ -41,5 +40,4 @@ module.exports = function(config, app) {
 		memLevel: 3
 	}));
 	app.use(responseTime());
-	app.use(cors());
 }
