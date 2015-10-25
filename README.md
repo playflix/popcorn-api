@@ -6,6 +6,17 @@ Popcorn Time API is developed to make it easier for anyone to create their own v
   - Metdata about TV Shows and individual episodes (taken from Trakt)
   - Multiple quality magnet links for every episode 
   - Ability to easily filter content to the users' content
+  - 
+  
+Build Intructions
+=================
+
+Install dependencies
+`npm install`
+
+Run it!
+`node index`
+
 
 Routes
 ======
