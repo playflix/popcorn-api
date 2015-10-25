@@ -1,18 +1,12 @@
 module.exports = {
-	master: false,
-	port: 5000,
+	master: true,
+	port: 8080,
 	workers: 2,
 	scrapeTime: '00 00 3,15 * * *',
 	scrapeTtl: 1000 * 60 * 60 * 10,
 	pageSize: 50,
 	dbHosts: [
-		'fr.ptnet',
-		'us-chi.ptnet',
-		'us-mia.ptnet',
-		'us-dal.ptnet',
-		'za.ptnet',
-		'br.ptnet',
-		'uk.ptnet',
+		'localhost'
 	],
 	map: {
 		'louie': 'louie-2010',

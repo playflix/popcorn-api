@@ -2,7 +2,8 @@ var join = require('path').join
   , express = require('express')
   , compress = require('compression')
   , responseTime = require('response-time')
-  , bodyParser = require('body-parser');
+  , bodyParser = require('body-parser')
+  , logger = require('morgan');
 
 var mongoose = require('mongoose');
 var config = require('./config');
@@ -40,4 +41,5 @@ module.exports = function(config, app) {
 		memLevel: 3
 	}));
 	app.use(responseTime());
+	app.use(logger('short'));
 }

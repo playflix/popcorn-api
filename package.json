@@ -10,10 +10,11 @@
     "cron": "^1.0.4",
     "express": "^4.3.0",
     "moment": "^2.6.0",
-    "mongoose": "^3.8.16",
+    "mongoose": "^4.2.2",
+    "morgan": "^1.6.1",
     "request": "^2.36.0",
     "response-time": "^1.0.0",
-    "trakt": "git+https://github.com/popcorn-official/node-trakt.git"
+    "trakt": "git+https://github.com/Nusrath/node-trakt.git"
   },
   "engines": {
     "node": ">=0.10.x",
@@ -21,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/popcorn-official/popcorn-api.git"
+    "url": "git://github.com/Nusrath/popcorn-api.git"
   }
 }
